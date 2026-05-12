@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.submit-btn {
+  position: relative;
+  padding: 10px 40px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+
+  border-top: 3px solid red;
+  border-bottom: 3px solid green;
+
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* thanh tím bên trái */
+.submit-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: purple;
+}
+
+/* chấm tím bên phải */
+.submit-btn::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 6px;
+  background-image: radial-gradient(purple 60%, transparent 61%);
+  background-size: 6px 10px;
+  background-repeat: repeat-y;
+  background-position: center;
+}
