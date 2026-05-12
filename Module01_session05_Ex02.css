@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  width: 200px;
+}
+
+.menu li {
+  background: #e6e6e6;
+  padding: 12px 20px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+/* Hiệu ứng hover */
+.menu li:hover {
+  background: #444242;
+}
