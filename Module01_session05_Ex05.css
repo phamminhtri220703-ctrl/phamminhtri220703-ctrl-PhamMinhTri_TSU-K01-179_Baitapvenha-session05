@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.transition{
+    background-color:grey;
+    color:aliceblue;
+    height:150px;
+    width: 150px;
+    text-align: center;
+    line-height: 150px;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+
+.transition:hover{
+    background-color:rgb(16, 16, 16);
+}
+
+.transition2{
+    background-color: dimgray;
+    color: aliceblue;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    line-height: 150px;
+    margin-bottom: 10px ;
+}
+.transition2:hover{ 
+    background-color: blue;
+}
+
+.transition3{
+    background-color: rgb(83, 51, 83);
+    text-align: center;
+    font-size:20px;
+    height: 150px;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin-bottom: 20px;
+}
+.transition3:hover{
+    scale: 1.5;
+}
+
+.transition4{
+    background-color: rgb(83, 51, 83);
+    text-align: center;
+    font-size:20px;
+    height: 150px;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    margin-bottom: 20px;
+}
+.transition4:hover{
+    scale:0.8
+}
+
+.transition5 {
+    background-color:  rgb(83, 51, 83);
+    text-align: center;
+    font-size: 20px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    line-height: 150px;
+}
+
+.transition5:hover{
+    transform: rotate(-30deg)
+}
+
+.transition6 {
+    background-color:  rgb(83, 51, 83);
+    text-align: center;
+    font-size: 20px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    line-height: 150px;
+    transition:2s
+}
+
+.transition6:hover{
+    border-radius: 50%;
+}
+
+.transition7 {
+    background-color:  rgb(83, 51, 83);
+    text-align: center;
+    font-size: 20px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    line-height: 150px;
+    transition: 1s;
+}
+.transition7:hover{
+    border:10px solid blue;
+}
+
